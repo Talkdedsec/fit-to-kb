@@ -1,12 +1,14 @@
-# KB’ye Sığdır
+![Fit to KB ? Small files. Less friction.](docs/assets/banner.png)
+
+# Fit to KB
 
 **Make your photos fit a file-size limit, right in your browser.**
 
-[Open the app](https://talkdedsec.github.io/kbye-sigdir/) · [English](#english) · [Türkçe](#türkçe)
+[Open the app](https://talkdedsec.github.io/fit-to-kb/) · [English](#english) · [Türkçe](#türkçe)
 
 ## English
 
-KB’ye Sığdır is a free image compression tool with **English as the default language** and a Turkish language option. No account, upload API, analytics or API key is required. Photos are processed on your device.
+Fit to KB is a free image compression tool with **English as the default language** and a Turkish language option. No account, upload API, analytics or API key is required. Photos are processed on your device.
 
 ### Features
 
@@ -64,9 +66,9 @@ Tests cover compression decisions using a simulated encoder and static asset pat
 
 **Fotoğraflarını tarayıcında istediğin dosya boyutuna küçült.**
 
-[Uygulamayı aç](https://talkdedsec.github.io/kbye-sigdir/)
+[Uygulamayı aç](https://talkdedsec.github.io/fit-to-kb/)
 
-KB’ye Sığdır, **varsayılan dili İngilizce** olan ve Türkçe seçeneği sunan ücretsiz bir fotoğraf küçültme aracıdır. Üyelik, yükleme API’si, analiz takibi veya API anahtarı gerektirmez. Fotoğraflar cihazında işlenir.
+Fit to KB, **varsayılan dili İngilizce** olan ve Türkçe seçeneği sunan ücretsiz bir fotoğraf küçültme aracıdır. Üyelik, yükleme API’si, analiz takibi veya API anahtarı gerektirmez. Fotoğraflar cihazında işlenir.
 
 ### Özellikler
 
