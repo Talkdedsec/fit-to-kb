@@ -2,7 +2,7 @@
 import test from 'node:test';
 import fs from 'node:fs';
 import ts from 'typescript';
-const source=ts.transpileModule(fs.readFileSync(new URL('../app/processor.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const source=ts.transpileModule(fs.readFileSync(new URL('../src/lib/processor.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
 const {compress}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
 let closed=0;
 globalThis.createImageBitmap=async()=>({width:1600,height:1000,close(){closed++;}});
