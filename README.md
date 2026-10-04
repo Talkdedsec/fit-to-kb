@@ -39,15 +39,14 @@ npm run dev
 
 ### Deploy
 
-**GitHub Pages:** push to `main`, then select **GitHub Actions** in repository Settings → Pages. The included workflow publishes the app. `npm run build:pages` creates `pages-dist` for static hosting; relative asset paths support repository subpaths.
-
-**Sites:** `npm run build` creates the Sites Worker build.
+Push to `main`, then select **GitHub Actions** in repository Settings → Pages. The included workflow runs the checks and publishes the app. `npm run build` writes the static site to `dist/`; relative asset paths support repository subpaths. `npm run preview` serves the build locally.
 
 ### Checks
 
 ```sh
+npm run typecheck
+npm run lint
 npm test
-npx tsc --noEmit
 ```
 
 Tests cover compression decisions using a simulated encoder and static asset paths. They do not replace testing real images in a browser.
@@ -99,15 +98,14 @@ npm run dev
 
 ### Yayınlama
 
-**GitHub Pages:** kodu `main` dalına gönder; depo Settings → Pages bölümünde **GitHub Actions** seç. Hazır iş akışı uygulamayı yayınlar. `npm run build:pages` komutu statik yayın için `pages-dist` klasörünü oluşturur; göreli dosya yolları depo alt yollarını destekler.
-
-**Sites:** `npm run build` komutu Sites Worker çıktısını oluşturur.
+Kodu `main` dalına gönder; depo Settings → Pages bölümünde **GitHub Actions** seç. Hazır iş akışı kontrolleri çalıştırır ve uygulamayı yayınlar. `npm run build` statik siteyi `dist/` altına yazar; göreli dosya yolları depo alt yollarını destekler. `npm run preview` derlemeyi yerelde açar.
 
 ### Kontroller
 
 ```sh
+npm run typecheck
+npm run lint
 npm test
-npx tsc --noEmit
 ```
 
 Testler, benzetilmiş bir kodlayıcıyla küçültme kararlarını ve statik dosya yollarını kontrol eder. Gerçek fotoğraflarla tarayıcı testinin yerini tutmaz.
