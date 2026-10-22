@@ -58,3 +58,7 @@ Tests cover compression decisions using a simulated encoder and static asset pat
 - Requires a modern browser with Canvas and `createImageBitmap`. HEIC, SVG, GIF and PDF are not supported. Animated WebP becomes a still image.
 - Re-encoding removes original metadata; a smaller already compliant original may be reused with its metadata.
 - Files stay in browser memory until removed or the tab closes. Changed settings require another compression run.
+
+<p align="center">
+  <sub>Built by <a href="https://talkdedsec.com">Talkdedsec</a></sub>
+</p>

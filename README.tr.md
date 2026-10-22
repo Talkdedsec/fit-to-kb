@@ -58,3 +58,7 @@ Testler, benzetilmiş bir kodlayıcıyla küçültme kararlarını ve statik dos
 - Canvas ve `createImageBitmap` destekleyen güncel bir tarayıcı gerekir. HEIC, SVG, GIF ve PDF desteklenmez. Animasyonlu WebP tek kareye dönüşür.
 - Yeniden kodlama özgün meta verileri kaldırır; zaten uygun ve daha küçük olan özgün dosya meta verileriyle birlikte yeniden kullanılabilir.
 - Dosyalar kaldırılana veya sekme kapanana kadar tarayıcı belleğinde kalır. Ayar değişiklikleri için yeniden küçültme gerekir.
+
+<p align="center">
+  <sub><a href="https://talkdedsec.com">Talkdedsec</a> tarafından yapıldı</sub>
+</p>
